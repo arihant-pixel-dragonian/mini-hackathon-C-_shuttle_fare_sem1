@@ -1,0 +1,14 @@
+ID,Input,Scenario,Expected output,Reported actual result,Verification
+TC01,"1,5,1","Bidholi to Prem Nagar, student",Rs. 36.90,Matched expected result (reported by team),User-reported PASS
+TC02,"1,5,0","Bidholi to Prem Nagar, non-student",Rs. 41.00,Matched expected result (reported by team),User-reported PASS
+TC03,"2,3,1","Kandoli to Pondha, student",Rs. 12.33,Matched expected result (reported by team),User-reported PASS
+TC04,"4,6,0","Nanda Ki Chowki to Ballupur, non-student",Rs. 24.80,Matched expected result (reported by team),User-reported PASS
+TC05,"1,8,1","Bidholi to Railway, student",Rs. 57.15,Matched expected result (reported by team),User-reported PASS
+TC06,"1,9",Out-of-range destination,Invalid stop selection!,Matched expected result (reported by team),User-reported PASS
+TC07,"2,2",Same pickup and destination,Invalid stop selection!,Matched expected result (reported by team),User-reported PASS
+TC08,"1,5,3",Invalid student value,Invalid student selection!,Matched expected result (reported by team),User-reported PASS
+TC09,abc (menu),Alphabetic menu input,Invalid input! Try again.,Matched expected result (reported by team),User-reported PASS
+TC10,abc (pickup),Alphabetic pickup input,Invalid input!,Matched expected result (reported by team),User-reported PASS
+TC11,7 (menu),Unknown menu option,Invalid choice!,Matched expected result (reported by team),User-reported PASS
+TC12,"3,1",Fare chart from Bidholi,7 destinations,Matched expected result (reported by team),User-reported PASS
+TC13,4 after restart,History persistence,Previously saved records visible,Matched expected result (reported by team),User-reported PASS
