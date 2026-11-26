@@ -1,0 +1,18 @@
+# Compiled programs
+*.exe
+
+# Local journey records
+history.txt
+journey_history.txt
+
+# Older C versions and experiments
+main_backup*.c
+main_route_backup.c
+main_v1_backup.c
+main_v2_backup.c
+file_test.c
+
+# Experimental website
+index.html
+script.js
+style.css
